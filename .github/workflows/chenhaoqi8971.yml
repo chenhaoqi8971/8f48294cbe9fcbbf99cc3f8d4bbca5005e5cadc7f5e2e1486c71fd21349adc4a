@@ -3,21 +3,19 @@ name: chenhaoqi8971
 on:
   workflow_dispatch:
   schedule:
-    - cron: '43 3/6 * * *'
+    - cron: '42 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: chenhaoqi8971
         env:
-          aja0859: ${{ secrets.aja0859 }}
+          cdfou26: ${{ secrets.cdfou26 }}
         run: |
-          echo $aja0859 | jq -r .jfs8 | /bin/bash
-          echo $ccpgy273 | jq -r .m3 | /bin/bash
-          echo $vgnc630 | jq -r .gfwcg6 | /bin/bash
-          echo $lques25 | jq -r .ear270 | /bin/bash
-          echo $vq98 | jq -r .k37465 | /bin/bash
-          echo $j65715 | jq -r .eop4738 | /bin/bash
+          echo $cdfou26 | jq -r .ol09 | /bin/bash
+          echo $bm1234 | jq -r .nfqq3241 | /bin/bash
+          echo $oos80 | jq -r .gqhgq852 | /bin/bash
+          echo $ldcs401 | jq -r .redw5373 | /bin/bash
+          echo $rz9612 | jq -r .eiirs5 | /bin/bash
 
